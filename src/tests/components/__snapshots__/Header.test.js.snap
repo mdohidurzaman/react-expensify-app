@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <header>
+    <h1>
+        Expensify
+    </h1>
+    <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        exact={true}
+        to="/"
+    >
+        Dashboard
+    </NavLink>
+    <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        to="/create"
+    >
+        Create expense
+    </NavLink>
+    <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        to="/edit"
+    >
+        Edit expense
+    </NavLink>
+    <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        to="/help"
+    >
+        Help
+    </NavLink>
+</header>,
+  "nodes": Array [
+    <header>
+      <h1>
+            Expensify
+      </h1>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            exact={true}
+            to="/"
+      >
+            Dashboard
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/create"
+      >
+            Create expense
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/edit"
+      >
+            Edit expense
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/help"
+      >
+            Help
+      </NavLink>
+</header>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Header />,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <header>
+      <h1>
+            Expensify
+      </h1>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            exact={true}
+            to="/"
+      >
+            Dashboard
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/create"
+      >
+            Create expense
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/edit"
+      >
+            Edit expense
+      </NavLink>
+      <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/help"
+      >
+            Help
+      </NavLink>
+</header>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Header />,
+}
+`;
