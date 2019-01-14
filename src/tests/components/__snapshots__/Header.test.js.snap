@@ -2,130 +2,249 @@
 
 exports[`should render Header correctly 1`] = `
 ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
-  "length": 1,
-  "node": <header>
-    <h1>
-        Expensify
-    </h1>
-    <NavLink
-        activeClassName="is-active"
-        ariaCurrent="true"
-        exact={true}
-        to="/"
-    >
-        Dashboard
-    </NavLink>
-    <NavLink
-        activeClassName="is-active"
-        ariaCurrent="true"
-        to="/create"
-    >
-        Create expense
-    </NavLink>
-    <NavLink
-        activeClassName="is-active"
-        ariaCurrent="true"
-        to="/edit"
-    >
-        Edit expense
-    </NavLink>
-    <NavLink
-        activeClassName="is-active"
-        ariaCurrent="true"
-        to="/help"
-    >
-        Help
-    </NavLink>
-</header>,
-  "nodes": Array [
-    <header>
-      <h1>
-            Expensify
-      </h1>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            exact={true}
-            to="/"
-      >
-            Dashboard
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/create"
-      >
-            Create expense
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/edit"
-      >
-            Edit expense
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
-      >
-            Help
-      </NavLink>
-</header>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_context": Object {},
-    "_element": <Header />,
-    "_instance": null,
-    "_newState": null,
-    "_rendered": <header>
-      <h1>
-            Expensify
-      </h1>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            exact={true}
-            to="/"
-      >
-            Dashboard
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/create"
-      >
-            Create expense
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/edit"
-      >
-            Edit expense
-      </NavLink>
-      <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
-      >
-            Help
-      </NavLink>
-</header>,
-    "_rendering": false,
-    "_updater": Updater {
-      "_renderer": [Circular],
-    },
-    "getRenderOutput": [Function],
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
     "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
   },
-  "root": [Circular],
-  "unrendered": <Header />,
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Expensify
+</h1>,
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          exact={true}
+          to="/"
+>
+          Dashboard
+</NavLink>,
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          to="/create"
+>
+          Create expense
+</NavLink>,
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          to="/edit"
+>
+          Edit expense
+</NavLink>,
+        <NavLink
+          activeClassName="is-active"
+          ariaCurrent="true"
+          to="/help"
+>
+          Help
+</NavLink>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Expensify",
+        },
+        "ref": null,
+        "rendered": "Expensify",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "is-active",
+          "ariaCurrent": "true",
+          "children": "Dashboard",
+          "exact": true,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": "Dashboard",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "is-active",
+          "ariaCurrent": "true",
+          "children": "Create expense",
+          "to": "/create",
+        },
+        "ref": null,
+        "rendered": "Create expense",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "is-active",
+          "ariaCurrent": "true",
+          "children": "Edit expense",
+          "to": "/edit",
+        },
+        "ref": null,
+        "rendered": "Edit expense",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "is-active",
+          "ariaCurrent": "true",
+          "children": "Help",
+          "to": "/help",
+        },
+        "ref": null,
+        "rendered": "Help",
+        "type": [Function],
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Expensify
+</h1>,
+          <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            exact={true}
+            to="/"
+>
+            Dashboard
+</NavLink>,
+          <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/create"
+>
+            Create expense
+</NavLink>,
+          <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/edit"
+>
+            Edit expense
+</NavLink>,
+          <NavLink
+            activeClassName="is-active"
+            ariaCurrent="true"
+            to="/help"
+>
+            Help
+</NavLink>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Expensify",
+          },
+          "ref": null,
+          "rendered": "Expensify",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "is-active",
+            "ariaCurrent": "true",
+            "children": "Dashboard",
+            "exact": true,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Dashboard",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "is-active",
+            "ariaCurrent": "true",
+            "children": "Create expense",
+            "to": "/create",
+          },
+          "ref": null,
+          "rendered": "Create expense",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "is-active",
+            "ariaCurrent": "true",
+            "children": "Edit expense",
+            "to": "/edit",
+          },
+          "ref": null,
+          "rendered": "Edit expense",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "is-active",
+            "ariaCurrent": "true",
+            "children": "Help",
+            "to": "/help",
+          },
+          "ref": null,
+          "rendered": "Help",
+          "type": [Function],
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
 }
 `;
